@@ -4,7 +4,7 @@ exports.up = function(knex) {
       table.increments('id')
       table.string('name')
       table.mediumint('price')
-      table.tinyint('count')
+      table.mediumint('count')
       table.string('imageName')
     });
 };

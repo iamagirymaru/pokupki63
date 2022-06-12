@@ -21,7 +21,7 @@
           </div>
           <div class="p63-add-product__form__set-img form-group custom-file mt-3">
             <input accept="image/jpeg,image/png" type="file" class="custom-file-input" id="imageInput" ref="imageInput" v-on:change="handleFileUpload()">
-            <label class="custom-file-label" for="imageInput">Выбрать изображение</label>
+            <label class="custom-file-label" for="imageInput">Выбрать изображение (до 2048*2048)</label>
           </div>
           
           <button type="submit" class="btn btn-dark text-center mt-3" :disabled="loading">

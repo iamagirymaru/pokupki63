@@ -51,5 +51,6 @@ export default {
   .card-img-top {
     min-width: 60%;
     min-height: 60%;
+    max-height: 180px;
   }
 </style>
